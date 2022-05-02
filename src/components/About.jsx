@@ -39,7 +39,7 @@ const About = () => {
             </Fade> 
             <Fade right>
             <div>
-              <p>I am eager to create high-quality web applications that benefits everyone around me. I specialize in developing software for freelance clients and small business. I am hungry to learn more and be part of the community, team and business to collabarate, share ideas and excel my knowledge.</p>  
+              <p>I am eager to create high-quality web applications and mobile applications that benefits everyone around me. I specialize in developing software for freelance clients and small business. I am hungry to learn more and be part of the community, team and business to collabarate, share ideas and excel my knowledge.</p>  
             </div>
             </Fade>
           </div>
