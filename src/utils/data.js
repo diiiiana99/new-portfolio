@@ -26,7 +26,7 @@ const fakeData3 = [
 
 {
         
-    url: "https://i.pinimg.com/736x/12/62/48/126248bc388320e54a70bf8415d7199e.jpg",
+    url: "https://preview.redd.it/yhxjfbkm95n81.jpg?auto=webp&s=6591488e9025cebfc81378ebf110cfbe786567e7",
     title: "Tesla Clone",
     description: "As someone who cares about the enviroment and planet, I was excited to recreate one of my favorites companies because of its value and impact to the society. For this project I used React, styled components, Redux to create a dynamic data. I have built all the aspects of the original website, and I am currently working on user authentication part of the website",
     price: "$39",
