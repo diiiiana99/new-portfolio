@@ -1,0 +1,23 @@
+.secondary-cursor {
+    z-index: 1000;
+    border-radius: 50%;
+    pointer-events: none;
+    overflow: hidden;
+    transform: translate3d(0, 0, 0);
+    position: fixed;
+    
+  
+    background: rgb(172, 28, 105);
+    mix-blend-mode: difference;
+    transition: width 0.25s ease-in-out, height 0.25s ease-in-out;
+  
+    &.regular {
+      width: 80px;
+      height: 90px;
+    }
+    &.small {
+      width: 60px;
+      height: 60px;
+    }
+  }
+  
