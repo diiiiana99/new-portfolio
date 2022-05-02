@@ -22,7 +22,7 @@ const Work = () => {
             {/* Grid Item */}
             <Fade left>
           <div
-            style={{ backgroundImage: `url(${'https://i0.wp.com/thecircular.org/wp-content/uploads/2020/04/fenty.jpg'})` }}
+            style={{ backgroundImage: `url(${'https://i0.wp.com/glossense.com/wp-content/uploads/2020/09/Fenty-Beauty-Sephora-Canada-Shop-Fenty-Beauty-HoloDaze-2020-Holiday-Christmas-Collection-Canadian-New-Releases-Gift-Ideas-Glossense.jpg?resize=620%2C382&ssl=1'})` }}
             className='shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div'
           >
             {/* Hover Effects */}
@@ -47,7 +47,7 @@ const Work = () => {
           </Fade>
           <Fade top>
           <div
-            style={{ backgroundImage: `url(${'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRFnk2ITl5zPM4tM8mtUS8O6Lq-K14FUh9fzg&usqp=CAU'})` }}
+            style={{ backgroundImage: `url(${'https://thumbs.dreamstime.com/b/pink-bitcoin-gold-coin-isolated-color-background-bit-d-render-illustration-cryptocurrency-crypto-business-managment-risk-189145379.jpg'})` }}
             className='shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div'
           >
             {/* Hover Effects */}
@@ -73,7 +73,7 @@ const Work = () => {
             {/* Grid Item */}
             <Fade right>
           <div
-            style={{ backgroundImage: `url(${'https://wwd.com/wp-content/uploads/2021/11/Bridal-22-Collections-Trend-Full-Skirts-CTSY-09.jpg'})` }}
+            style={{ backgroundImage: `url(${'https://sc01.alicdn.com/kf/HTB1D8APk7CWBuNjy0Faq6xUlXXaf/220563943/HTB1D8APk7CWBuNjy0Faq6xUlXXaf.jpg'})` }}
             className='shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div'
           >
             {/* Hover Effects */}
@@ -98,7 +98,7 @@ const Work = () => {
           </Fade>
           <Fade left>
           <div
-            style={{ backgroundImage: `url(${'https://www.aljazeera.com/wp-content/uploads/2022/01/tesla.jpg?resize=770%2C513'})` }}
+            style={{ backgroundImage: `url(${'https://i.ytimg.com/vi/J24mQQrggnQ/maxresdefault.jpg'})` }}
             className='shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div'
           >
             {/* Hover Effects */}
@@ -125,7 +125,7 @@ const Work = () => {
             {/* Grid Item */}
             <Fade top>
           <div
-            style={{ backgroundImage: `url(${'https://3u8dbs16f2emlqxkbc8tbvgf-wpengine.netdna-ssl.com/wp-content/uploads/2020/10/Uber-Eats.png'})` }}
+            style={{ backgroundImage: `url(${'https://metro.co.uk/wp-content/uploads/2019/04/Menu-Shot-b993.jpg?quality=90&strip=all'})` }}
             className='shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div'
           >
             {/* Hover Effects */}
