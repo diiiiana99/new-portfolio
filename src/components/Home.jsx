@@ -14,19 +14,19 @@ const Home = () => {
         <p className='text-pink-600'>Hi, my name is</p>
         </Fade>
         <Fade top>
-        <h1 className='text-4xl sm:text-7xl font-bold text-gray-300'>
+        <h1 className='text-4xl sm:text-6xl font-bold text-gray-200'>
           Dianna Ganova
         </h1>
         </Fade>
         <Fade bottom>
-        <h2 className='text-4xl sm:text-7xl font-bold text-gray-300'>
+        <h2 className='text-4xl sm:text-6xl font-bold text-gray-200'>
           I'm a Full Stack Developer.
         </h2>
         </Fade>
         <p className='text-[#1d1e1e] py-4 max-w-[700px]'>
 
         </p>
-        <Link to='about' smooth={true} duration={500}>
+        <Link to='work' smooth={true} duration={500}>
         <div>
     
           <Fade left>

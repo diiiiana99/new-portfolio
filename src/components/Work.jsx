@@ -4,7 +4,7 @@ import {Fade} from 'react-reveal'
 
 const Work = () => {
   return (
-    <div name='work' className='w-full md:h-screen text-gray-300 bg-[#000000]'>
+    <div name='work' className='w-full md:h-screen text-gray-200 bg-[#000000]'>
       <div className='max-w-[1000px] mx-auto p-4 flex flex-col justify-center w-full h-full'>
         <Fade top>
         <div className='pb-8'>
@@ -27,8 +27,8 @@ const Work = () => {
           >
             {/* Hover Effects */}
             <div className='opacity-0 group-hover:opacity-100'>
-              <span className='text-2xl font-bold text-white tracking-wider'>
-               Fenty Beauty E-Commerce App
+              <span className='text-2xl font-600 text-pink tracking-wider'>
+               Fenty Beauty E-Commerce 
               </span>
               <div className='pt-8 text-center'>
                 <a href='https://vimeo.com/704936414'>
@@ -52,7 +52,7 @@ const Work = () => {
           >
             {/* Hover Effects */}
             <div className='opacity-0 group-hover:opacity-100'>
-              <span className='text-2xl font-bold text-white tracking-wider'>
+              <span className='text-2xl font-600 text-pink tracking-wider'>
                 SheTrades
               </span>
               <div className='pt-8 text-center'>
@@ -78,7 +78,7 @@ const Work = () => {
           >
             {/* Hover Effects */}
             <div className='opacity-0 group-hover:opacity-100'>
-              <span className='text-2xl font-bold text-white tracking-wider'>
+              <span className='text-2xl font-600 text-pink tracking-wider'>
                 Pandora Bridal
               </span>
               <div className='pt-8 text-center'>
@@ -103,7 +103,7 @@ const Work = () => {
           >
             {/* Hover Effects */}
             <div className='opacity-0 group-hover:opacity-100'>
-              <span className='text-2xl font-bold text-white tracking-wider'>
+              <span className='text-2xl font-600 text-pink tracking-wider'>
                 Tesla Clone
               </span>
               <div className='pt-8 text-center'>
@@ -130,7 +130,7 @@ const Work = () => {
           >
             {/* Hover Effects */}
             <div className='opacity-0 group-hover:opacity-100'>
-              <span className='text-2xl font-bold text-white tracking-wider'>
+              <span className='text-2xl font-600 text-pink tracking-wider'>
                 Uber Eats Clone
               </span>
               <div className='pt-8 text-center'>
