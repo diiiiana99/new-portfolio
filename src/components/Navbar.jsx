@@ -65,33 +65,24 @@ const Navbar = () => {
         className={
           !nav
             ? 'hidden'
-            : 'absolute text-black left-0 top-0 w-full bg-pink-700 px-2 py-2 flex flex-row opacity-1'
+            : 'absolute text-black left-0 top-0 w-full bg-pink-700 px-1 py-1 flex flex-row opacity-1'
         }
       >
-        <li className='py-6 text-1.5xl items-center'>
-          <Link onClick={handleClick} to='home' smooth={true} duration={500}>
-            Home
-          </Link>
-        </li>
-        <li className='py-6 text-1.5xl'>
-          {' '}
-          <Link onClick={handleClick} to='about' smooth={true} duration={500}>
-            About
-          </Link>
-        </li>
-        <li className='py-6 text-1.5xl'>
+    
+    
+        <li className='py-6 text-1xl'>
           {' '}
           <Link onClick={handleClick} to='skills' smooth={true} duration={500}>
             Skills
           </Link>
         </li>
-        <li className='py-6 text-1.5xl'>
+        <li className='py-6 text-.5xl'>
           {' '}
           <Link onClick={handleClick} to='work' smooth={true} duration={500}>
             Work
           </Link>
         </li>
-        <li className='py-6 text-1.5xl'>
+        <li className='py-6 text-.5xl'>
           {' '}
           <Link onClick={handleClick} to='contact' smooth={true} duration={500}>
             Contact
@@ -99,17 +90,17 @@ const Navbar = () => {
         </li>
         <li className='flex justify-between my-6'>
           <a href='https://www.linkedin.com/in/dianna-ganova-529295189/'>
-            <FaLinkedin className='icon  text-2xl' />
+            <FaLinkedin className='icon  text-1xl' />
           </a>
           </li>
           <li>
           <a href='https://github.com/diiiiana99'>
-            <FaGithub className='icon text-2xl my-6'/>
+            <FaGithub className='icon text-1xl my-6'/>
           </a>
           </li>
           <li>
           <a href='https://www.linkedin.com/in/dianna-ganova-529295189/overlay/1635489743968/single-media-viewer/'>
-            <BsFillPersonLinesFill className='icon text-2xl my-6' />
+            <BsFillPersonLinesFill className='icon text-1xl my-6' />
             </a>
           </li>
         
