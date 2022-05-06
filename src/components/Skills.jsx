@@ -48,14 +48,7 @@ const Skills = () => {
                   <img className='w-20 mx-auto' src='https://ezerus.com.au/wp-content/uploads/2019/05/aws-logo-aws-new-logo-album-on-imgur-ideas.png' alt="" />
                   <p className='my-4'>AWS</p>
               </div>
-              <div className='shadow-md shadow-[#ff6ed6] hover:scale-110 duration-500'>
-                  <img className='w-20 mx-auto' src='https://upload.wikimedia.org/wikipedia/commons/thumb/e/ef/Stack_Overflow_icon.svg/768px-Stack_Overflow_icon.svg.png' alt="" />
-                  <p className='my-4'>STACK OVERFLOW</p>
-              </div>
-              <div className='shadow-md shadow-[#ff6ed6] hover:scale-110 duration-500'>
-                  <img className='w-20 mx-auto' src='https://www.freepnglogos.com/uploads/google-logo-png/google-logo-png-suite-everything-you-need-know-about-google-newest-0.png' alt="" />
-                  <p className='my-4'>GOOGLE</p>
-              </div>
+
           </div>
           </Fade>
       </div>

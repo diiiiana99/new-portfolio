@@ -56,7 +56,7 @@ const Navbar = () => {
       </Fade>
 
       {/* Hamburger */}
-      <div onClick={handleClick} className='md:hidden z-10'>
+      <div onClick={handleClick} className='md:hidden z-10 '>
         {!nav ? <FaBars /> : <FaTimes />}
       </div>
 
@@ -65,38 +65,54 @@ const Navbar = () => {
         className={
           !nav
             ? 'hidden'
-            : 'absolute top-0 left-0 w-full h-screen bg-[#000000] flex flex-col justify-center items-center '
+            : 'absolute text-black left-0 top-0 w-full bg-pink-700 px-2 py-2 flex flex-row opacity-1'
         }
       >
-        <li className='py-6 text-4xl'>
+        <li className='py-6 text-1.5xl items-center'>
           <Link onClick={handleClick} to='home' smooth={true} duration={500}>
             Home
           </Link>
         </li>
-        <li className='py-6 text-4xl'>
+        <li className='py-6 text-1.5xl'>
           {' '}
           <Link onClick={handleClick} to='about' smooth={true} duration={500}>
             About
           </Link>
         </li>
-        <li className='py-6 text-4xl'>
+        <li className='py-6 text-1.5xl'>
           {' '}
           <Link onClick={handleClick} to='skills' smooth={true} duration={500}>
             Skills
           </Link>
         </li>
-        <li className='py-6 text-4xl'>
+        <li className='py-6 text-1.5xl'>
           {' '}
           <Link onClick={handleClick} to='work' smooth={true} duration={500}>
             Work
           </Link>
         </li>
-        <li className='py-6 text-4xl'>
+        <li className='py-6 text-1.5xl'>
           {' '}
           <Link onClick={handleClick} to='contact' smooth={true} duration={500}>
             Contact
           </Link>
         </li>
+        <li className='flex justify-between my-6'>
+          <a href='https://www.linkedin.com/in/dianna-ganova-529295189/'>
+            <FaLinkedin className='icon  text-2xl' />
+          </a>
+          </li>
+          <li>
+          <a href='https://github.com/diiiiana99'>
+            <FaGithub className='icon text-2xl my-6'/>
+          </a>
+          </li>
+          <li>
+          <a href='https://www.linkedin.com/in/dianna-ganova-529295189/overlay/1635489743968/single-media-viewer/'>
+            <BsFillPersonLinesFill className='icon text-2xl my-6' />
+            </a>
+          </li>
+        
       </ul>
 
       {/* Social icons */}

@@ -8,6 +8,7 @@ import Media from "./components/ProjectDetail/Media"
 import CustomCursor from "./CustomCursor";
 
 
+
 function App() {
   return (
     <div>
