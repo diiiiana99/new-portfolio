@@ -5,7 +5,7 @@ import {Link} from 'react-scroll'
 
 const Home = () => {
   return (
-    <div name='home' className='w-full h-screen bg-[pink] '
+    <div name='home' className='w-full h-screen bg-[black] '
     >
 
       

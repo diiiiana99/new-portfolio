@@ -33,11 +33,6 @@ const fakeData3 = [
 
 },
 {
-        
-    url: "https://ubernewsroomapi.10upcdn.com/wp-content/uploads/2018/09/IMG_6314_iphonexspacegrey_portrait-1.png",
-    title: "Uber Eats Clone",
-    description: "As part of our Phase 4 project at Flatiron School, I built a React Native application with my partner. The application is a full-stack application that displays and retrieves restaurant information using external APIs and internal data. Working with React Native and learning about it was enjoyable"
-    
 }
 ]
 export default fakeData3

@@ -5,7 +5,7 @@ import {Fade} from 'react-reveal'
 
 const Skills = () => {
   return (
-    <div name='skills' className='w-full h-screen bg-[pink] text-white'>
+    <div name='skills' className='w-full h-screen bg-[black] text-white'>
       {/* Container */}
       <div className='max-w-[1000px] mx-auto p-3 flex flex-col justify-center w-full h-full'>
           <Fade top>
