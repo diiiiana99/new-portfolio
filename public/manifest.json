@@ -3,18 +3,18 @@
   "name": "Create React App Sample",
   "icons": [
     {
-      "src": "",
+      "src": "https://t4.ftcdn.net/jpg/04/59/08/31/360_F_459083166_OpvFVkRcGIZYhTlPVNd7qB16AbC6Vlm0.jpg",
       "sizes": "64x64 32x32 24x24 16x16",
-      "type": "image/x-icon"
+      "type": "https://t4.ftcdn.net/jpg/04/59/08/31/360_F_459083166_OpvFVkRcGIZYhTlPVNd7qB16AbC6Vlm0.jpg"
     },
     {
-      "src": "",
-      "type": "image/png",
+      "src": "https://t4.ftcdn.net/jpg/04/59/08/31/360_F_459083166_OpvFVkRcGIZYhTlPVNd7qB16AbC6Vlm0.jpg",
+      "type": "https://t4.ftcdn.net/jpg/04/59/08/31/360_F_459083166_OpvFVkRcGIZYhTlPVNd7qB16AbC6Vlm0.jpg",
       "sizes": "192x192"
     },
     {
-      "src": "",
-      "type": "image/png",
+      "src": "https://t4.ftcdn.net/jpg/04/59/08/31/360_F_459083166_OpvFVkRcGIZYhTlPVNd7qB16AbC6Vlm0.jpg",
+      "type": "https://t4.ftcdn.net/jpg/04/59/08/31/360_F_459083166_OpvFVkRcGIZYhTlPVNd7qB16AbC6Vlm0.jpg",
       "sizes": "512x512"
     }
   ],
