@@ -129,7 +129,7 @@ const Navbar = () => {
           <li className='w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#d0128e]'>
             <a
               className='flex justify-between items-center w-full text-white'
-              href='https://www.linkedin.com/in/dianna-ganova-529295189/overlay/1635489743968/single-media-viewer/'
+              href='https://www.linkedin.com/in/dianna-ganova-529295189/overlay/1635490203208/single-media-viewer/'
             >
               Resume <BsFillPersonLinesFill size={30} />
             </a>
