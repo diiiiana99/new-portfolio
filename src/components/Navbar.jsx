@@ -10,12 +10,15 @@ import {
 import { HiOutlineMail } from 'react-icons/hi';
 import { BsFillPersonLinesFill } from 'react-icons/bs';
 import {Fade} from 'react-reveal'
-
 import { Link } from 'react-scroll';
 
 const Navbar = () => {
   const [nav, setNav] = useState(false);
   const handleClick = () => setNav(!nav);
+
+
+
+
 
   return (
     
@@ -99,7 +102,7 @@ const Navbar = () => {
           </a>
           </li>
           <li>
-          <a href='https://www.linkedin.com/in/dianna-ganova-529295189/overlay/1635489743968/single-media-viewer/'>
+          <a href='https://www.docdroid.net/UJ4lZdz/dianna-ganova-resume-1-pdf'>
             <BsFillPersonLinesFill className='icon text-1xl my-6' />
             </a>
           </li>
@@ -128,9 +131,9 @@ const Navbar = () => {
           </li>
           <li className='w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#d0128e]'>
             <a
-              className='flex justify-between items-center w-full text-white'
-              href='https://www.linkedin.com/in/dianna-ganova-529295189/overlay/1635490203208/single-media-viewer/'
-            >
+              className='flex justify-between items-center w-full text-white' 
+              href='https://www.docdroid.net/UJ4lZdz/dianna-ganova-resume-1-pdf'
+                        >
               Resume <BsFillPersonLinesFill size={30} />
             </a>
           </li>

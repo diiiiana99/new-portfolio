@@ -17,9 +17,9 @@ const fakeData3 = [
 },
 {
         
-    url: "https://images.unsplash.com/photo-1592188251679-aeb27c66c96e?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=774&q=80",
-    title: "Bridal Shop",
-    description: "Front-end development for Bridal Shop involves using React, ScrollTrigger, and CSS. This application is extremely modest and smooth, ensuring that the user has a pleasant experience. In Bride Shop, there are several animations and scroll effects, but unfortunately not much functionality since I was honing my design skills.",
+    url: "https://images.ctfassets.net/giye6gngze72/6UBn9ABS6IG8wuQkWGISgQ/ec6d614ba56d46545255be9d3b2208d4/MercedesHouse_ResidencesPhoto.jpg",
+    title: "Mercedes House Real Estate App",
+    description: "Built with HTML, Tailwind CSS, Javascript, and ReactJS. Mercedes House is a website of a well-known building in Midtown of New York City. I wanted to rebuild it with my vision and implement my vision and design skills. I am currently working on:Utilizing full CRUD capabilities. UX and UI focused features. Designing custom rails methods, and implemented custom rails validations. Also creating a login/logout with custom authorization in the backend.",
     link: "https://desolate-caverns-29825.herokuapp.com"
 
 },
@@ -30,6 +30,14 @@ const fakeData3 = [
     title: "Tesla Clone",
     description: "Having a deep respect for nature and the environment, I was thrilled to recreate one of my favorite companies because of its impact and value. I used React, styled components, and Redux to create a dynamic data set for this project. I have built all aspects of the original website, and I am currently working on its authentication system",
     price: "$39",
+
+},
+{
+        
+    url: "https://images.unsplash.com/photo-1592188251679-aeb27c66c96e?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=774&q=80",
+    title: "Bridal Shop",
+    description: "Front-end development for Bridal Shop involves using React, ScrollTrigger, and CSS. This application is extremely modest and smooth, ensuring that the user has a pleasant experience. In Bride Shop, there are several animations and scroll effects, but unfortunately not much functionality since I was honing my design skills.",
+    link: "https://desolate-caverns-29825.herokuapp.com"
 
 },
 {
