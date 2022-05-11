@@ -102,7 +102,7 @@ const Navbar = () => {
           </a>
           </li>
           <li>
-          <a href='https://www.docdroid.net/UJ4lZdz/dianna-ganova-resume-1-pdf'>
+          <a href='https://www.docdroid.net/iHDhZVX/dianna-ganova-resume-1-pdf'>
             <BsFillPersonLinesFill className='icon text-1xl my-6' />
             </a>
           </li>
