@@ -102,7 +102,7 @@ const Navbar = () => {
           </a>
           </li>
           <li>
-          <a href='https://www.docdroid.net/T1AlXFx/dianna-ganova-resume-1-pdf'>
+          <a href='https://www.docdroid.net/UJ4lZdz/dianna-ganova-resume-1-pdf'>
             <BsFillPersonLinesFill className='icon text-1xl my-6' />
             </a>
           </li>
@@ -118,7 +118,7 @@ const Navbar = () => {
               className='flex justify-between items-center w-full text-white'
               href='https://www.linkedin.com/in/dianna-ganova-529295189/'
             >
-              Linkedin <FaLinkedin size={30} />
+              LinkedIn <FaLinkedin size={30} />
             </a>
           </li>
           <li className='w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#333333]'>
@@ -132,7 +132,7 @@ const Navbar = () => {
           <li className='w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#d0128e]'>
             <a
               className='flex justify-between items-center w-full text-white' 
-              href='https://www.docdroid.net/0tCz2fn/dianna-ganova-resume-1-pdf'
+              href='https://www.docdroid.net/T1AlXFx/dianna-ganova-resume-1-pdf'
                         >
               Resume <BsFillPersonLinesFill size={30} />
             </a>
