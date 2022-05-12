@@ -8,6 +8,8 @@
     body {
         @apply font-[Hind];
         cursor:none;
+        
+
     }
     li {
         @apply px-3;
