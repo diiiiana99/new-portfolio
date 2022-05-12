@@ -27,7 +27,7 @@ const Work = () => {
           >
             {/* Hover Effects */}
             <div className='opacity-0 group-hover:opacity-100'>
-              <span className='text-2xl font-600 text-pink tracking-wider'>
+              <span className='text-1xl font-600 text-pink tracking-wider'>
                Fenty Beauty E-Commerce 
               </span>
               <div className='pt-8 text-center'>
@@ -52,8 +52,8 @@ const Work = () => {
           >
             {/* Hover Effects */}
             <div className='opacity-0 group-hover:opacity-100'>
-              <span className='text-2xl font-600 text-pink tracking-wider'>
-                SheTrades
+              <span className='text-1xl font-600 text-pink tracking-wider'>
+                SheTrades Crypto App
               </span>
               <div className='pt-8 text-center'>
                 <a href='https://mysterious-forest-31007.herokuapp.com/'>
@@ -78,7 +78,7 @@ const Work = () => {
           >
             {/* Hover Effects */}
             <div className='opacity-0 group-hover:opacity-100'>
-              <span className='text-2xl font-600 text-pink tracking-wider'>
+              <span className='text-1xl font-600 text-pink tracking-wider'>
               Mercedes House Real Estate App
               </span>
               <div className='pt-8 text-center'>
@@ -103,8 +103,8 @@ const Work = () => {
           >
             {/* Hover Effects */}
             <div className='opacity-0 group-hover:opacity-100'>
-              <span className='text-2xl font-600 text-pink tracking-wider'>
-                Tesla Clone
+              <span className='text-1xl font-600 text-pink tracking-wider'>
+                Tesla Clone React App
               </span>
               <div className='pt-8 text-center'>
                 <a href='https://aqueous-oasis-77613.herokuapp.com/'>
@@ -129,8 +129,8 @@ const Work = () => {
           >
             {/* Hover Effects */}
             <div className='opacity-0 group-hover:opacity-100'>
-              <span className='text-2xl font-600 text-pink tracking-wider'>
-                Pandora Bridal
+              <span className='text-1xl font-600 text-pink tracking-wider'>
+                Pandora Bridal Shop App
               </span>
               <div className='pt-8 text-center'>
                 <a href='https://desolate-caverns-29825.herokuapp.com/'>
