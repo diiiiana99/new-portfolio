@@ -1,6 +1,15 @@
 const fakeData3 = [
     {
         
+        url: "https://w0.peakpx.com/wallpaper/970/251/HD-wallpaper-coding-code-sayings-science.jpg",
+        title: "SheCodes Coding App",
+        description: "This is SheCodes, hands-on Coding Workshops for Women and Access to a new career in Technology. Built with ReactJS, React-Tilt, styled components. I was inspired by Figma templates, so I wanted to recreate the original SheCodes website by adding my twist and vision to it. I was mainly focusing on designing it first, so I will be adding more functionality and backend with JWT Tokes for User Auth and dynamic data.",
+        price: "$39",
+
+},
+
+
+    {   
             url: "https://pbs.twimg.com/media/EkadP1qWkAASIN2.jpg",
             title: "Fenty Beauty Project",
             description: "My e-commerce application is based on Rihanna's Fenty Beauty line. In addition to logging in, browsing your favorite products, and getting single product details, I used React, GSAP ScrollTrigger, SCSS, and Locomotive Scroll for cool scrolling effects on the front-end. Also, I used Rails to build my own database so that the user could interact with the data that was being retrieved.",

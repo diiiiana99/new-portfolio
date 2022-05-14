@@ -22,6 +22,31 @@ const Work = () => {
             {/* Grid Item */}
             <Fade left>
           <div
+            style={{ backgroundImage: `url(${'https://img.freepik.com/free-photo/software-developer-concept-grow-coding-development-icon-pink-background-language-programming-engineering-minimal-cartoon-sytle-3d-render-illustration_598821-680.jpg?w=2000'})` }}
+            className='shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div'
+          >
+            {/* Hover Effects */}
+            <div className='opacity-0 group-hover:opacity-100'>
+              <span className='text-1xl font-600 text-pink tracking-wider'>
+               SheCodes Coding App
+              </span>
+              <div className='pt-8 text-center'>
+                <a href='https://youtu.be/wmqvXji233s'>
+                  <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>
+                    Demo
+                  </button>
+                </a>
+                <a href='https://github.com/diiiiana99/SheCodes'>
+                  <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>
+                    Code
+                  </button>
+                </a>
+              </div>
+            </div>
+          </div>
+          </Fade>
+            <Fade left>
+          <div
             style={{ backgroundImage: `url(${'https://i0.wp.com/glossense.com/wp-content/uploads/2020/09/Fenty-Beauty-Sephora-Canada-Shop-Fenty-Beauty-HoloDaze-2020-Holiday-Christmas-Collection-Canadian-New-Releases-Gift-Ideas-Glossense.jpg?resize=620%2C382&ssl=1'})` }}
             className='shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div'
           >
