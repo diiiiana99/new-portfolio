@@ -8,7 +8,7 @@ import {
   FaLinkedinIn,
 } from 'react-icons/fa';
 import { HiOutlineMail } from 'react-icons/hi';
-import { BsFillPersonLinesFill } from 'react-icons/bs';
+import { IoIosPaper } from 'react-icons/io';
 import {Fade} from 'react-reveal'
 import { Link } from 'react-scroll';
 
@@ -22,7 +22,7 @@ const Navbar = () => {
 
   return (
     
-    <div className='fixed w-full h-[80px] flex justify-between items-center px-4 bg-[black] text-white'>
+    <div className='fixed w-full h-[80px] flex justify-between items-center px-4 bg-[] text-white'>
       <div>
         DiannaGanova 👩🏻‍💻
       </div>
@@ -68,7 +68,7 @@ const Navbar = () => {
         className={
           !nav
             ? 'hidden'
-            : 'absolute text-black left-0 top-0 w-full bg-pink-700 px-1 py-1 flex flex-row opacity-1'
+            : 'absolute text-gray-600 left-0 top-0 w-full bg-pink-200 px-1 py-1 flex flex-row  opacity-1'
         }
       >
     
@@ -103,7 +103,7 @@ const Navbar = () => {
           </li>
           <li>
           <a href='https://www.docdroid.net/UJ4lZdz/dianna-ganova-resume-1-pdf'>
-            <BsFillPersonLinesFill className='icon text-1xl my-6' />
+            <IoIosPaper className='icon text-1xl my-6' />
             </a>
           </li>
         
@@ -111,9 +111,9 @@ const Navbar = () => {
 
       {/* Social icons */}
         <Fade left>
-      <div className='hidden lg:flex fixed flex-col top-[35%] left-0'>
+      <div className='hidden lg:flex fixed flex-col top-[2.5%] left-0'>
         <ul>
-          <li className='w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-blue-600'>
+          <li className='w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-blue-350'>
             <a
               className='flex justify-between items-center w-full text-white'
               href='https://www.linkedin.com/in/dianna-ganova-529295189/'
@@ -121,7 +121,7 @@ const Navbar = () => {
               LinkedIn <FaLinkedin size={30} />
             </a>
           </li>
-          <li className='w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#333333]'>
+          <li className='w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 '>
             <a
               className='flex justify-between items-center w-full text-white'
               href='https://github.com/diiiiana99'
@@ -129,12 +129,12 @@ const Navbar = () => {
               Github <FaGithub size={30} />
             </a>
           </li>
-          <li className='w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#d0128e]'>
+          <li className='w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300   hover:border-pink-600 '>
             <a
               className='flex justify-between items-center w-full text-white' 
               href='https://www.docdroid.net/jrconOK/dianna-ganova-resume-2-pdf'
                         >
-              Resume <BsFillPersonLinesFill size={30} />
+              Resume <IoIosPaper size={30} />
             </a>
           </li>
         </ul>

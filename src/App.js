@@ -25,7 +25,6 @@ function App() {
       <Home />
       <ImageOne/>
       <About />
-      <ImageTwo/>
       <Skills />
       <ImageThree/>
       <Work />

@@ -4,7 +4,7 @@ import {Fade} from 'react-reveal'
 
 const Work = () => {
   return (
-    <div name='work' className='w-full md:h-screen text-white bg-[black]'>
+    <div name='work' className='w-full md:h-screen text-pink-500 bg-[]'>
       <div className='max-w-[1000px] mx-auto p-12 flex flex-col justify-center w-full h-full mt-60px'>
         <Fade top>
         <div className=''>
@@ -32,12 +32,12 @@ const Work = () => {
               </span>
               <div className='pt-8 text-center'>
                 <a href='https://youtu.be/wmqvXji233s'>
-                  <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>
+                  <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-pink-500 font-bold text-lg'>
                     Demo
                   </button>
                 </a>
                 <a href='https://github.com/diiiiana99/SheCodes'>
-                  <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>
+                  <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-pink-500 font-bold text-lg'>
                     Code
                   </button>
                 </a>
@@ -57,12 +57,12 @@ const Work = () => {
               </span>
               <div className='pt-8 text-center'>
                 <a href='https://vimeo.com/707940460'>
-                  <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>
+                  <button className='text-center rounded-lg px-4 py-3 m-2 hover:bg-pink-400 hover:border-pink-100 text-pink-500 font-bold text-lg'>
                     Demo
                   </button>
                 </a>
                 <a href='https://github.com/diiiiana99/fenty-beauty-project-react'>
-                  <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>
+                  <button className='text-center rounded-lg px-4 py-3 m-2 hover:bg-pink-400 hover:border-white text-pink-500 font-bold text-lg'>
                     Code
                   </button>
                 </a>
@@ -82,12 +82,12 @@ const Work = () => {
               </span>
               <div className='pt-8 text-center'>
                 <a href='https://mysterious-forest-31007.herokuapp.com/'>
-                  <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>
+                  <button className='text-center rounded-lg px-4 py-3 m-2  hover:bg-pink-400 hover:border-pink-100 text-pink-500 font-bold text-lg'>
                     Demo
                   </button>
                 </a>
                 <a href='https://github.com/diiiiana99/SheTrades'>
-                  <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>
+                  <button className='text-center rounded-lg px-4 py-3 m-2  hover:bg-pink-400 hover:border-pink-100 text-pink-500 font-bold text-lg'>
                     Code
                   </button>
                 </a>
@@ -108,12 +108,12 @@ const Work = () => {
               </span>
               <div className='pt-8 text-center'>
                 <a href='https://vimeo.com/707942729'>
-                  <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>
+                  <button className='text-center rounded-lg px-4 py-3 m-2  hover:bg-pink-400 hover:border-pink-100 text-pink-500 font-bold text-lg'>
                     Demo
                   </button>
                 </a>
                 <a href=''>
-                  <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>
+                  <button className='text-center rounded-lg px-4 py-3 m-2  hover:bg-pink-400 hover:border-pink-100 text-pink-500 font-bold text-lg'>
                     Code
                   </button>
                 </a>
@@ -133,12 +133,12 @@ const Work = () => {
               </span>
               <div className='pt-8 text-center'>
                 <a href='https://aqueous-oasis-77613.herokuapp.com/'>
-                  <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>
+                  <button className='text-center rounded-lg px-4 py-3 m-2  hover:bg-pink-400 hover:border-pink-100 text-pink-500 font-bold text-lg'>
                     Demo
                   </button>
                 </a>
                 <a href='https://github.com/diiiiana99/Tesla-Clone'>
-                  <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>
+                  <button className='text-center rounded-lg px-4 py-3 m-2  hover:bg-pink-400 hover:border-pink-100 text-pink-500 font-bold text-lg'>
                     Code
                   </button>
                 </a>
@@ -159,12 +159,12 @@ const Work = () => {
               </span>
               <div className='pt-8 text-center'>
                 <a href='https://desolate-caverns-29825.herokuapp.com/'>
-                  <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>
+                  <button className='text-center rounded-lg px-4 py-3 m-2  hover:bg-pink-400 hover:border-pink-100 text-pink-500 font-bold text-lg'>
                     Demo
                   </button>
                 </a>
                 <a href='https://github.com/diiiiana99/Bridal-Shop'>
-                  <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>
+                  <button className='text-center rounded-lg px-4 py-3 m-2 hover:bg-pink-400 hover:border-pink-100 text-pink-500 font-bold text-lg'>
                     Code
                   </button>
                 </a>

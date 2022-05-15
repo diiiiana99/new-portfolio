@@ -5,7 +5,7 @@ import {Link} from 'react-scroll'
 
 const Home = () => {
   return (
-    <div name='home' className='w-full h-screen bg-[black] '
+    <div name='home' className='w-full h-screen bg-[] '
     >
 
       
@@ -31,7 +31,7 @@ const Home = () => {
         <div>
     
           <Fade left>
-          <button className='text-white group border-2 px-6 py-3 my-2 flex items-center hover:bg-pink-600 hover:border-pink-600'>
+          <button className='text-pink-500 group border-2 px-6 py-3 my-2 flex items-center hover:bg-pink-200 hover:border-pink-600'>
             View Work
             <span className='group-hover:rotate-90 duration-300'>
               <HiArrowNarrowRight className='ml-3 ' />

@@ -50,6 +50,7 @@ useEffect(() => {
 
 
   return (
+      <div className='body'>
     <div ref={titleSliderRef} className='single-item-container'>
         <div className='item-desc-left'>
 
@@ -68,7 +69,7 @@ useEffect(() => {
         <div ref={imageSliderRef} className='item-img-right sticky'>
         <RenderImages2  product={product}/>
         </div>
-]
+    </div>
     </div>
   )
 };
