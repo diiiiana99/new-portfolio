@@ -18,7 +18,7 @@
   .single-item-container{
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    font-family: Hind, sans-serif;
+    font-family: 'Raleway', sans-serif;
     z-index: 2;
     padding-top: 250px;
     background-color: rgba(0, 0, 0, 0.9);
@@ -50,6 +50,7 @@
         
         font-size: .8rem;
         margin-top: 20px;
+        font-weight: 600;
         line-height: 3.5;
         color: rgb(192, 64, 138);
   

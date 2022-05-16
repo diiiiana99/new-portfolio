@@ -22,35 +22,35 @@ const Navbar = () => {
 
   return (
     
-    <div className='fixed w-full h-[80px] flex justify-between items-center px-4 bg-[] text-white'>
+    <div className='fixed w-full h-[80px] flex justify-between items-center px-4 bg-[] text-white font-bold'>
       <div>
         DiannaGanova 👩🏻‍💻
       </div>
 
       {/* menu */}
       <Fade top>
-      <ul className='hidden md:flex'>
-        <li>
+      <ul className='hidden md:flex font-bold'>
+        <li className='font-bold'>
           <Link to='home' smooth={true} duration={500}>
             Home
           </Link>
         </li>
-        <li>
+        <li className='font-bold'>
           <Link to='about' smooth={true} duration={500}>
             About
           </Link>
         </li>
-        <li>
+        <li className='font-bold'>
           <Link to='skills' smooth={true} duration={500}>
             Skills
           </Link>
         </li>
-        <li>
+        <li className='font-bold'>
           <Link to='work' smooth={true} duration={500}>
             Work
           </Link>
         </li>
-        <li>
+        <li className='font-bold'>
           <Link to='contact' smooth={true} duration={500}>
             Contact
           </Link>
@@ -73,25 +73,25 @@ const Navbar = () => {
       >
     
     
-        <li className='py-6 text-1xl'>
+        <li className='py-6 text-1xl font-bold'>
           {' '}
           <Link onClick={handleClick} to='skills' smooth={true} duration={500}>
             Skills
           </Link>
         </li>
-        <li className='py-6 text-.5xl'>
+        <li className='py-6 text-.5xl font-bold'>
           {' '}
           <Link onClick={handleClick} to='work' smooth={true} duration={500}>
             Work
           </Link>
         </li>
-        <li className='py-6 text-.5xl'>
+        <li className='py-6 text-.5xl font-bold'>
           {' '}
           <Link onClick={handleClick} to='contact' smooth={true} duration={500}>
             Contact
           </Link>
         </li>
-        <li className='flex justify-between my-6'>
+        <li className='flex justify-between my-6 font-bold'>
           <a href='https://www.linkedin.com/in/dianna-ganova-529295189/'>
             <FaLinkedin className='icon  text-1xl' />
           </a>
@@ -111,7 +111,7 @@ const Navbar = () => {
 
       {/* Social icons */}
         <Fade left>
-      <div className='hidden lg:flex fixed flex-col top-[2.5%] left-0'>
+      <div className='hidden lg:flex fixed flex-col top-[1.8%] left-0'>
         <ul>
           <li className='w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-blue-350'>
             <a

@@ -2,11 +2,11 @@
 @tailwind components;
 @tailwind utilities;
 
-@import url('https://fonts.googleapis.com/css2?family=Monaco:wght@300;400;500;600;700;800;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@300;400;500;600;700;800;900&display=swap');
 
 @layer base {
     body {
-        @apply font-[Hind];
+        @apply font-[Raleway];
         background:url('https://images.unsplash.com/photo-1574281183650-14db8f28c259?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1yZWxhdGVkfDE2fHx8ZW58MHx8fHw%3D&auto=format&fit=crop&w=800&q=60t&fit=crop&w=987&q=80');
         background-size:contain;
         @supports (-webkit-backdrop-filter: none) or (backdrop-filter: none) {
@@ -14,6 +14,59 @@
           backdrop-filter: blur(8px);
           background-color: rgba(255, 255, 255, 0.5);
         }
+        button{
+          background:  #f774c5;
+          border: none;
+          padding: 0.9rem 1.1rem;
+          color: #ffffff !important;
+          border-radius: 1rem ;
+          box-shadow: 0px 13px 24px -7px #f774c5;
+          transition: all 0.3s ease-in-out;
+          margin: 0.5rem;
+          font-size: 0.8rem;
+          cursor: pointer;
+          &:hover {
+            transform: translateY(-5px);
+            color: white;
+            background: transparent;
+            border: 3px solid #f774c5;
+
+            background: none !important;
+
+
+          }
+        }
+        li{
+          text-decoration: none;
+          color: #fff;
+          font-size: 1rem;
+          padding: 0.7rem 1.5rem;
+          border-radius: 0.8rem;
+          font-weight: 500;
+          background-color: transparent;
+     
+        
+        
+          &:hover {
+            transform: scale(1.06);
+            transition: all 0.3s ease-out;
+            box-shadow: 0px 17px 16px -11px #f774c5;
+            background:#f774c5
+
+          }
+        }
+        input{
+          &:hover {
+            transform: scale(1.06);
+            transition: all 0.3s ease-out;
+        }
+        textarea{
+          &:hover {
+            transform: scale(1.06);
+            transition: all 0.3s ease-out;
+        }
+      }
+    }
         
 
     }
@@ -26,7 +79,7 @@
 .content-div {
   
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: contain;
     background-position: center;
     height: 250px;
 }
@@ -40,7 +93,7 @@
     
 }
 .image {
-    min-height: 150vh;
+    min-height: 120vh;
     position: relative;
 margin-bottom:200px;
           @supports (-webkit-backdrop-filter: none) or (backdrop-filter: none) {
@@ -67,6 +120,7 @@ margin-bottom:200px;
     padding: 1rem;
     font-size: 1.5rem;
     letter-spacing: 10px;
+    font-weight:600;
   }
   
   

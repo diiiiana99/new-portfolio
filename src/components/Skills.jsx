@@ -3,6 +3,7 @@ import {Fade} from 'react-reveal'
 
 
 
+
 const Skills = () => {
   return (
     <div name='skills' className='w-full h-screen bg-[] text-white'>
@@ -11,10 +12,11 @@ const Skills = () => {
           <Fade top>
           <div>
               <p className='text-4xl font-bold inline border-b-4 border-pink-600 '>Skills</p>
-              <p className='py-4 text-pink-500'>These are the tools that I utilize to create my work</p>
+              <p className='py-4 text-pink-500 font-bold'>These are the tools that I utilize to create my work</p>
           </div>
           </Fade>
           <Fade bottom>
+              
           <div className='w-full grid grid-cols-2 sm:grid-cols-4 gap-4 text-center py-8'>
               <div className='shadow-md shadow-[#ff6ed6] hover:scale-110 duration-500'>
                   <img className='w-20 mx-auto' src='https://cdn.worldvectorlogo.com/logos/html-1.svg' alt="" />
