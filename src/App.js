@@ -28,6 +28,7 @@ function App() {
       <Skills />
       <ImageThree/>
       <Work />
+      <Media/>
       <Contact />
     </div>
   );
