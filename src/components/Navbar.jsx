@@ -22,7 +22,7 @@ const Navbar = () => {
 
   return (
     
-    <div className='fixed w-full h-[80px] flex justify-between items-center px-4 bg-[] text-white font-bold'>
+    <div className='sticky  w-full h-[80px] flex justify-between items-center px-4 bg-[] text-white font-bold'>
       <div>
         DiannaGanova 👩🏻‍💻
       </div>
