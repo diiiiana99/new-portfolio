@@ -111,30 +111,30 @@ const Navbar = () => {
 
       {/* Social icons */}
         <Fade left>
-      <div className='hidden lg:flex fixed flex-col top-[5.7%] left-0'>
+      <div className='hidden lg:flex fixed flex-col top-[2%] left-0 bg-pink'>
         <ul>
-          <li className='w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-blue-350'>
+          <li className='w-[160px] h-[60px] flex justify-between items-center ml-[-86px] hover:ml-[-10px] duration-300 bg-blue-350'>
             <a
               className='flex justify-between items-center w-full text-white'
               href='https://www.linkedin.com/in/dianna-ganova-529295189/'
             >
-              LinkedIn <FaLinkedin size={30} />
+              LinkedIn <FaLinkedin size={43} />
             </a>
           </li>
-          <li className='w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 '>
+          <li className='w-[160px] h-[60px] flex justify-between items-center ml-[-86px] hover:ml-[-10px] duration-300 '>
             <a
-              className='flex justify-between items-center w-full text-white'
+              className='flex justify-between items-center w-full text-white '
               href='https://github.com/diiiiana99'
             >
-              Github <FaGithub size={30} />
+              Github <FaGithub size={43} />
             </a>
           </li>
-          <li className='w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300   hover:border-pink-600 '>
+          <li className='w-[160px] h-[60px] flex justify-between items-center ml-[-86px] hover:ml-[-10px] duration-300   hover:border-pink-600 '>
             <a
               className='flex justify-between items-center w-full text-white' 
               href='https://www.docdroid.net/jrconOK/dianna-ganova-resume-2-pdf'
                         >
-              Resume <IoIosPaper size={30} />
+              Resume <IoIosPaper size={43} />
             </a>
           </li>
         </ul>
