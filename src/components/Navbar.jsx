@@ -132,7 +132,7 @@ const Navbar = () => {
           <li className='w-[160px] h-[60px] flex justify-between items-center ml-[-86px] hover:ml-[-10px] duration-300   hover:border-pink-600 '>
             <a
               className='flex justify-between items-center w-full text-white' 
-              href='https://www.docdroid.net/jrconOK/dianna-ganova-resume-2-pdf'
+              href='https://www.docdroid.net/ulFjlzP/dianna-ganova-resume-2-pdf'
                         >
               Resume <IoIosPaper size={43} />
             </a>
