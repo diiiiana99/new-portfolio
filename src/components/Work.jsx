@@ -88,7 +88,7 @@ const Work = () => {
                 SheTrades Crypto App
               </span>
               <div className='pt-8 text-center'>
-                <a href='https://mysterious-forest-31007.herokuapp.com/'>
+                <a href='https://shielded-wave-83109.herokuapp.com/'>
                   <button className='text-center rounded-lg px-4 py-3 m-2  hover:bg-pink-400 hover:border-pink-100 text-white  font-bold text-lg'>
                     Demo
                   </button>
