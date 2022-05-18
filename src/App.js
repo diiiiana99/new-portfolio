@@ -23,12 +23,12 @@ function App() {
       <CustomCursor/>
       <Navbar />
       <Home />
-      <ImageOne/>
-      <About />
-      <Skills />
       <ImageThree/>
       <Work />
       <Media/>
+      <ImageOne/>
+      <About />
+      <Skills />
       <Contact />
     </div>
   );
