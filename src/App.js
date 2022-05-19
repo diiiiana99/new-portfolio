@@ -19,14 +19,13 @@ function App() {
 
 
   return (
-    <div>
+    <div className=''>
       <CustomCursor/>
       <Navbar />
       <Home />
       <ImageThree/>
       <Work />
       <Media/>
-      <ImageOne/>
       <About />
       <Skills />
       <Contact />

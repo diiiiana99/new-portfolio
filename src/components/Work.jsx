@@ -6,7 +6,7 @@ import Tilt from "react-tilt";
 
 const Work = () => {
   return (
-    <div name='work' className='w-full md:h-screen text-pink-500 bg-[]'>
+    <div name='work' className='w-full md:h-screen text-pink-500 bg-img-[../assets/bg1.png]'>
       <div className='max-w-[1000px] mx-auto p-12 flex flex-col justify-center w-full h-full mt-60px'>
         <Fade top>
         <div className=''>
@@ -25,7 +25,7 @@ const Work = () => {
             <Fade left>
               <Tilt>
           <div
-            style={{ backgroundImage: `url(${'https://img.freepik.com/free-photo/software-developer-concept-grow-coding-development-icon-pink-background-language-programming-engineering-minimal-cartoon-sytle-3d-render-illustration_598821-680.jpg?w=2000'})` }}
+            style={{ backgroundImage: `url(${'https://i.ibb.co/fGCt3wX/desk-shetrades.png'})`}}
             className='shadow-lg shadow-[#f774c5] group container rounded-md flex justify-center items-center mx-auto content-div'
           >
             {/* Hover Effects */}
@@ -52,7 +52,7 @@ const Work = () => {
             <Fade left>
             <Tilt>
           <div
-            style={{ backgroundImage: `url(${'https://i0.wp.com/glossense.com/wp-content/uploads/2020/09/Fenty-Beauty-Sephora-Canada-Shop-Fenty-Beauty-HoloDaze-2020-Holiday-Christmas-Collection-Canadian-New-Releases-Gift-Ideas-Glossense.jpg?resize=620%2C382&ssl=1'})` }}
+            style={{ backgroundImage: `url(${'https://i.ibb.co/0YfQy6V/desk-fenty.png'})` }}
             className='shadow-lg shadow-[#f774c5] group container rounded-md flex justify-center items-center mx-auto content-div'
           >
             {/* Hover Effects */}
@@ -79,7 +79,7 @@ const Work = () => {
           <Fade top>
           <Tilt>
           <div
-            style={{ backgroundImage: `url(${'https://thumbs.dreamstime.com/b/pink-bitcoin-gold-coin-isolated-color-background-bit-d-render-illustration-cryptocurrency-crypto-business-managment-risk-189145379.jpg'})` }}
+            style={{ backgroundImage: `url(${'https://i.ibb.co/ZXKBSZD/des-shetades.png'})` }}
             className='shadow-lg shadow-[#f774c5] group container rounded-md flex justify-center items-center mx-auto content-div'
           >
             {/* Hover Effects */}
@@ -107,7 +107,7 @@ const Work = () => {
             <Fade right>
             <Tilt>
           <div
-            style={{ backgroundImage: `url(${'https://images.ctfassets.net/giye6gngze72/6UBn9ABS6IG8wuQkWGISgQ/ec6d614ba56d46545255be9d3b2208d4/MercedesHouse_ResidencesPhoto.jpg'})` }}
+            style={{ backgroundImage: `url(${'https://i.ibb.co/nn1m3cc/des-mercedes.png'})` }}
             className='shadow-lg shadow-[#f774c5] group container rounded-md flex justify-center items-center mx-auto content-div'
           >
             {/* Hover Effects */}
@@ -134,7 +134,7 @@ const Work = () => {
           <Fade left>
           <Tilt>
           <div
-            style={{ backgroundImage: `url(${'https://i.ytimg.com/vi/J24mQQrggnQ/maxresdefault.jpg'})` }}
+            style={{ backgroundImage: `url(${'https://i.ibb.co/R2mrhY2/des-tesla.png'})` }}
             className='shadow-lg shadow-[#f774c5] group container rounded-md flex justify-center items-center mx-auto content-div'
           >
             {/* Hover Effects */}
@@ -159,33 +159,7 @@ const Work = () => {
           </div>
           </Tilt>
           </Fade>
-          <Fade right>
-          <Tilt>
-          <div
-            style={{ backgroundImage: `url(${'https://sc01.alicdn.com/kf/HTB1D8APk7CWBuNjy0Faq6xUlXXaf/220563943/HTB1D8APk7CWBuNjy0Faq6xUlXXaf.jpg'})` }}
-            className='shadow-lg shadow-[#f774c5] group container rounded-md flex justify-center items-center mx-auto content-div'
-          >
-            {/* Hover Effects */}
-            <div className='opacity-0 group-hover:opacity-100'>
-              <span className='text-1xl font-bold text-pink tracking-wider'>
-                Pandora Bridal Shop App
-              </span>
-              <div className='pt-8 text-center'>
-                <a href='https://desolate-caverns-29825.herokuapp.com/'>
-                  <button className='text-center rounded-lg px-4 py-3 m-2  hover:bg-pink-400 hover:border-pink-100 text-white font-bold text-lg'>
-                    Demo
-                  </button>
-                </a>
-                <a href='https://github.com/diiiiana99/Bridal-Shop'>
-                  <button className='text-center rounded-lg px-4 py-3 m-2 hover:bg-pink-400 hover:border-pink-100 text-white font-bold text-lg'>
-                    Code
-                  </button>
-                </a>
-              </div>
-            </div>
-          </div>
-          </Tilt>
-          </Fade>
+ 
             {/* Grid Item */}
            
         </div>
