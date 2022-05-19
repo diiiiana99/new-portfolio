@@ -6,8 +6,8 @@ import Tilt from "react-tilt";
 
 const Work = () => {
   return (
-    <div name='work' className='w-full md:h-screen text-pink-500 bg-img-[../assets/bg1.png]'>
-      <div className='max-w-[1000px] mx-auto p-12 flex flex-col justify-center w-full h-full mt-60px'>
+    <div name='work' className='w-full md:h-screen text-pink-500 '>
+      <div className='max-w-[1200px] mx-auto p-12 flex flex-col justify-center w-full h-full mt-60px'>
         <Fade top>
         <div className=''>
           <p className='text-4xl  font-bold inline border-b-4 text-white border-pink-600'>
