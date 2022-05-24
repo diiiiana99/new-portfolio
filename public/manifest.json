@@ -3,18 +3,18 @@
   "name": "Create React App Sample",
   "icons": [
     {
-      "src": "https://t4.ftcdn.net/jpg/04/59/08/31/360_F_459083166_OpvFVkRcGIZYhTlPVNd7qB16AbC6Vlm0.jpg",
+      "src": "https://cdn.freelogovectors.net/svg03/daz-logo.svg",
       "sizes": "64x64 32x32 24x24 16x16",
-      "type": "https://t4.ftcdn.net/jpg/04/59/08/31/360_F_459083166_OpvFVkRcGIZYhTlPVNd7qB16AbC6Vlm0.jpg"
+      "type": "https://cdn.freelogovectors.net/svg03/daz-logo.svg"
     },
     {
-      "src": "https://t4.ftcdn.net/jpg/04/59/08/31/360_F_459083166_OpvFVkRcGIZYhTlPVNd7qB16AbC6Vlm0.jpg",
-      "type": "https://t4.ftcdn.net/jpg/04/59/08/31/360_F_459083166_OpvFVkRcGIZYhTlPVNd7qB16AbC6Vlm0.jpg",
+      "src": "https://cdn.freelogovectors.net/svg03/daz-logo.svg",
+      "type": "https://cdn.freelogovectors.net/svg03/daz-logo.svg",
       "sizes": "192x192"
     },
     {
-      "src": "https://t4.ftcdn.net/jpg/04/59/08/31/360_F_459083166_OpvFVkRcGIZYhTlPVNd7qB16AbC6Vlm0.jpg",
-      "type": "https://t4.ftcdn.net/jpg/04/59/08/31/360_F_459083166_OpvFVkRcGIZYhTlPVNd7qB16AbC6Vlm0.jpg",
+      "src": "https://cdn.freelogovectors.net/svg03/daz-logo.svg",
+      "type": "https://cdn.freelogovectors.net/svg03/daz-logo.svg",
       "sizes": "512x512"
     }
   ],

@@ -3,7 +3,7 @@ const fakeData3 = [
         
         url: "https://i.ibb.co/pZhHYN6/Shecodes.png",
         title: "SheCodes Coding App",
-        description: "This is SheCodes, hands-on Coding Workshops for Women and Access to a new career in Technology. Built with ReactJS, React-Tilt, styled components. I was inspired by Figma templates, so I wanted to recreate the original SheCodes website by adding my twist and vision to it. I was mainly focusing on designing it first, so I will be adding more functionality and backend with JWT Tokes for User Auth and dynamic data.",
+        description: "This is SheCodes, hands-on Coding Workshops for Women and Access to a new career in Technology. Built with ReactJS, React-Tilt, styled components. I was mainly focusing on designing it first, so I will be adding more functionality and backend with JWT Tokes for User Auth and dynamic data.",
         price: "$39",
 
 },
@@ -26,22 +26,22 @@ const fakeData3 = [
 },
 {
         
-    url: "https://i.ibb.co/rmx5bqx/mercedes.png",
-    title: "Mercedes House Real Estate App",
-    description: "Built with HTML, Tailwind CSS, Javascript, and ReactJS. Mercedes House is a website of a well-known building in Midtown of New York City. I wanted to rebuild it with my vision and implement my vision and design skills. I am currently working on:Utilizing full CRUD capabilities. UX and UI focused features. Designing custom rails methods, and implemented custom rails validations. Also creating a login/logout with custom authorization in the backend.",
-    link: "https://desolate-caverns-29825.herokuapp.com"
-
-},
-{
-        
     url: "https://i.ibb.co/CVdXry2/tesla.png",
     title: "Tesla Clone",
     description: "Having a deep respect for nature and the environment, I was thrilled to recreate one of my favorite companies because of its impact and value. I used React, styled components, and Redux to create a dynamic data set for this project. I have built all aspects of the original website, and I am currently working on its authentication system",
     price: "$39",
 
 },
-
 {
-}
+        
+    url: "https://i.ibb.co/rmx5bqx/mercedes.png",
+    title: "Mercedes House Real Estate App",
+    description: "Built with HTML, Tailwind CSS, Javascript, and ReactJS.I am currently working on:Utilizing full CRUD capabilities. UX and UI focused features. Designing custom rails methods, and implemented custom rails validations. Also creating a login/logout with custom authorization in the backend.",
+    link: "https://desolate-caverns-29825.herokuapp.com"
+
+},
+
+
+
 ]
 export default fakeData3

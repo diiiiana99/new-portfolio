@@ -104,34 +104,7 @@ const Work = () => {
           </Tilt>
           </Fade>
             {/* Grid Item */}
-            <Fade right>
-            <Tilt>
-          <div
-            style={{ backgroundImage: `url(${'https://i.ibb.co/nn1m3cc/des-mercedes.png'})` }}
-            className='shadow-lg shadow-[#f774c5] group container rounded-md flex justify-center items-center mx-auto content-div'
-          >
-            {/* Hover Effects */}
-            <div className='opacity-0 group-hover:opacity-100'>
-              <span className='text-1xl font-bold text-pink tracking-wider'>
-              Mercedes House Real Estate App
-              </span>
-              <div className='pt-8 text-center'>
-                <a href='https://vimeo.com/707942729'>
-                  <button className='text-center rounded-lg px-4 py-3 m-2  hover:bg-pink-400 hover:border-pink-100 text-white  font-bold text-lg'>
-                    Demo
-                  </button>
-                </a>
-                <a href=''>
-                  <button className='text-center rounded-lg px-4 py-3 m-2  hover:bg-pink-400 hover:border-pink-100 text-white  font-bold text-lg'>
-                    Code
-                  </button>
-                </a>
-              </div>
-            </div>
-          </div>
-          </Tilt>
-          </Fade>
-          <Fade left>
+            <Fade left>
           <Tilt>
           <div
             style={{ backgroundImage: `url(${'https://i.ibb.co/R2mrhY2/des-tesla.png'})` }}
@@ -159,6 +132,34 @@ const Work = () => {
           </div>
           </Tilt>
           </Fade>
+            <Fade right>
+            <Tilt>
+          <div
+            style={{ backgroundImage: `url(${'https://i.ibb.co/nn1m3cc/des-mercedes.png'})` }}
+            className='shadow-lg shadow-[#f774c5] group container rounded-md flex justify-center items-center mx-auto content-div'
+          >
+            {/* Hover Effects */}
+            <div className='opacity-0 group-hover:opacity-100'>
+              <span className='text-1xl font-bold text-pink tracking-wider'>
+              Mercedes House Real Estate App
+              </span>
+              <div className='pt-8 text-center'>
+                <a href='https://vimeo.com/707942729'>
+                  <button className='text-center rounded-lg px-4 py-3 m-2  hover:bg-pink-400 hover:border-pink-100 text-white  font-bold text-lg'>
+                    Demo
+                  </button>
+                </a>
+                <a href=''>
+                  <button className='text-center rounded-lg px-4 py-3 m-2  hover:bg-pink-400 hover:border-pink-100 text-white  font-bold text-lg'>
+                    Code
+                  </button>
+                </a>
+              </div>
+            </div>
+          </div>
+          </Tilt>
+          </Fade>
+
  
             {/* Grid Item */}
            
