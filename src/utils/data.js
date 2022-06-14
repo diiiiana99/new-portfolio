@@ -1,4 +1,13 @@
 const fakeData3 = [
+   
+    {
+        
+        url: "https://i.ibb.co/sgWvcLP/i-Phone-13-Mockup.png",
+        title: "GetFit Fitness App",
+        description: "GetFit is a fitness app for everyone who is trying to get fit and be healthy. ",
+        price: "$39",
+
+},
     {
         
         url: "https://i.ibb.co/pZhHYN6/Shecodes.png",

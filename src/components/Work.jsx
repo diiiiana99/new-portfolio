@@ -25,6 +25,33 @@ const Work = () => {
             <Fade left>
               <Tilt>
           <div
+            style={{ backgroundImage: `url(${'https://i.ibb.co/4jqGKY7/mockup.png'})`}}
+            className='shadow-lg shadow-[#f774c5] group container rounded-md flex justify-center items-center mx-auto content-div'
+          >
+            {/* Hover Effects */}
+            <div className='opacity-0 group-hover:opacity-100'>
+              <span className='text-1xl font-bold text-pink tracking-wider' >
+               GetFit Fitness App
+              </span>
+              <div className='pt-8 text-center'>
+                <a href='https://youtu.be/wmqvXji233s'>
+                  <button className='text-center rounded-lg px-4 py-3 m-2 hover:bg-pink-400 hover:border-pink-100 text-white  font-bold text-lg'>
+                    Demo
+                  </button>
+                </a>
+                <a href='https://github.com/diiiiana99/SheCodes'>
+                  <button className='text-center rounded-lg px-4 py-3 m-2 hover:bg-pink-400 hover:border-pink-100 text-white  font-bold text-lg'>
+                    Code
+                  </button>
+                </a>
+              </div>
+            </div>
+          </div>
+          </Tilt>
+          </Fade>
+            <Fade left>
+              <Tilt>
+          <div
             style={{ backgroundImage: `url(${'https://i.ibb.co/fGCt3wX/desk-shetrades.png'})`}}
             className='shadow-lg shadow-[#f774c5] group container rounded-md flex justify-center items-center mx-auto content-div'
           >
