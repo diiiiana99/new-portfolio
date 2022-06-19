@@ -1,10 +1,17 @@
 const fakeData3 = [
-   
     {
         
-        url: "https://i.ibb.co/sgWvcLP/i-Phone-13-Mockup.png",
+        url: "https://i.ibb.co/whJD39n/White-Clay.png",
+        title: "GOAT Shop",
+        description: "My Own Online Shoe Store. Start Selling & Growing. Experience a buttery UI of Goat Online Shoe Store. Smooth constant colors of a fluent UI design. GOAT Shop has been developed using a cross-platform technology, React Native.",
+        price: "$39",
+
+},
+    {
+        
+        url: "https://i.ibb.co/sqmphHX/White-Clay-1.png",
         title: "GetFit Fitness App",
-        description: "GetFit is a fitness app for everyone who is trying to get fit and be healthy. ",
+        description: "GetFit is a fitness app for everyone who is trying to get fit and be healthy. Developed with React, Material UI, and styled-components.  Implemented Rapid API and YoutTube API to showcase 222 exercises and related videos that cover all body muscles. Additional functionalities include: searching and filtering through 222 exercises and rendering an exercise detail page that utilizes YouTube API and Rapid API to showcase similar exercises.",
         price: "$39",
 
 },

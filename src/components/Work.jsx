@@ -22,6 +22,34 @@ const Work = () => {
         <div className='grid sm:grid-cols-2 md:grid-cols-3 gap-4'>
 
             {/* Grid Item */}
+            <Fade right>
+            <Tilt>
+          <div
+            style={{ backgroundImage: `url(${'https://i.ibb.co/wJGd8fv/Scene-3-1.png'})` }}
+            className='shadow-lg shadow-[#f774c5] group container rounded-md flex justify-center items-center mx-auto content-div'
+          >
+            {/* Hover Effects */}
+            <div className='opacity-0 group-hover:opacity-100'>
+              <span className='text-1xl font-bold text-pink tracking-wider'>
+              Goat Shop
+              </span>
+              <div className='pt-8 text-center'>
+                <a href='https://safe-wave-75851.herokuapp.com/'>
+                  <button className='text-center rounded-lg px-4 py-3 m-2  hover:bg-pink-400 hover:border-pink-100 text-white  font-bold text-lg'>
+                    Demo
+                  </button>
+                </a>
+                <a href='https://github.com/diiiiana99/e-commerce'>
+                  <button className='text-center rounded-lg px-4 py-3 m-2  hover:bg-pink-400 hover:border-pink-100 text-white  font-bold text-lg'>
+                    Code
+                  </button>
+                </a>
+              </div>
+            </div>
+          </div>
+          </Tilt>
+          </Fade>
+
             <Fade left>
               <Tilt>
           <div
@@ -41,6 +69,33 @@ const Work = () => {
                 </a>
                 <a href='https://github.com/diiiiana99/SheCodes'>
                   <button className='text-center rounded-lg px-4 py-3 m-2 hover:bg-pink-400 hover:border-pink-100 text-white  font-bold text-lg'>
+                    Code
+                  </button>
+                </a>
+              </div>
+            </div>
+          </div>
+          </Tilt>
+          </Fade>
+          <Fade top>
+          <Tilt>
+          <div
+            style={{ backgroundImage: `url(${'https://i.ibb.co/ZXKBSZD/des-shetades.png'})` }}
+            className='shadow-lg shadow-[#f774c5] group container rounded-md flex justify-center items-center mx-auto content-div'
+          >
+            {/* Hover Effects */}
+            <div className='opacity-0 group-hover:opacity-100'>
+              <span className='text-1xl font-bold text-pink tracking-wider'>
+                SheTrades Crypto App
+              </span>
+              <div className='pt-8 text-center'>
+                <a href='https://shielded-wave-83109.herokuapp.com/'>
+                  <button className='text-center rounded-lg px-4 py-3 m-2  hover:bg-pink-400 hover:border-pink-100 text-white  font-bold text-lg'>
+                    Demo
+                  </button>
+                </a>
+                <a href='https://github.com/diiiiana99/SheTrades'>
+                  <button className='text-center rounded-lg px-4 py-3 m-2  hover:bg-pink-400 hover:border-pink-100 text-white  font-bold text-lg'>
                     Code
                   </button>
                 </a>
@@ -103,33 +158,7 @@ const Work = () => {
           </div>
           </Tilt>
           </Fade>
-          <Fade top>
-          <Tilt>
-          <div
-            style={{ backgroundImage: `url(${'https://i.ibb.co/ZXKBSZD/des-shetades.png'})` }}
-            className='shadow-lg shadow-[#f774c5] group container rounded-md flex justify-center items-center mx-auto content-div'
-          >
-            {/* Hover Effects */}
-            <div className='opacity-0 group-hover:opacity-100'>
-              <span className='text-1xl font-bold text-pink tracking-wider'>
-                SheTrades Crypto App
-              </span>
-              <div className='pt-8 text-center'>
-                <a href='https://shielded-wave-83109.herokuapp.com/'>
-                  <button className='text-center rounded-lg px-4 py-3 m-2  hover:bg-pink-400 hover:border-pink-100 text-white  font-bold text-lg'>
-                    Demo
-                  </button>
-                </a>
-                <a href='https://github.com/diiiiana99/SheTrades'>
-                  <button className='text-center rounded-lg px-4 py-3 m-2  hover:bg-pink-400 hover:border-pink-100 text-white  font-bold text-lg'>
-                    Code
-                  </button>
-                </a>
-              </div>
-            </div>
-          </div>
-          </Tilt>
-          </Fade>
+       
             {/* Grid Item */}
             <Fade left>
           <Tilt>
@@ -159,34 +188,7 @@ const Work = () => {
           </div>
           </Tilt>
           </Fade>
-            <Fade right>
-            <Tilt>
-          <div
-            style={{ backgroundImage: `url(${'https://i.ibb.co/nn1m3cc/des-mercedes.png'})` }}
-            className='shadow-lg shadow-[#f774c5] group container rounded-md flex justify-center items-center mx-auto content-div'
-          >
-            {/* Hover Effects */}
-            <div className='opacity-0 group-hover:opacity-100'>
-              <span className='text-1xl font-bold text-pink tracking-wider'>
-              Mercedes House Real Estate App
-              </span>
-              <div className='pt-8 text-center'>
-                <a href='https://vimeo.com/707942729'>
-                  <button className='text-center rounded-lg px-4 py-3 m-2  hover:bg-pink-400 hover:border-pink-100 text-white  font-bold text-lg'>
-                    Demo
-                  </button>
-                </a>
-                <a href=''>
-                  <button className='text-center rounded-lg px-4 py-3 m-2  hover:bg-pink-400 hover:border-pink-100 text-white  font-bold text-lg'>
-                    Code
-                  </button>
-                </a>
-              </div>
-            </div>
-          </div>
-          </Tilt>
-          </Fade>
-
+           
  
             {/* Grid Item */}
            
