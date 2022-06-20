@@ -4,7 +4,6 @@ import fakeData3 from '../../utils/data'
 import cn from 'classnames'
 import Title from './Title'
 import {gsap} from 'gsap'
-import {Fade} from 'react-reveal'
 
 
 function RenderImages2({product}) {

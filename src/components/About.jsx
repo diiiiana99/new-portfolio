@@ -1,6 +1,5 @@
 import React, {useEffect, useRef} from 'react';
 import { init } from "ityped";
-import {Fade} from 'react-reveal'
 
 
 const About = () => {

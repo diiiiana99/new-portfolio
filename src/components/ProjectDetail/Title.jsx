@@ -1,7 +1,6 @@
 import React, {useRef, useEffect} from 'react'
 import useOnScreen from '../../hooks/useOnScreen'
 import './Portfolio.scss'
-import {Fade} from 'react-reveal'
 
 export default function Product3 ({ title, description, index, updateImage, link }) {
 

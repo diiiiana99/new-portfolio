@@ -1,6 +1,5 @@
 import React, { useRef, useEffect} from 'react';
 import { HiArrowNarrowRight } from 'react-icons/hi';
-import {Fade} from 'react-reveal'
 import {Link} from 'react-scroll'
 import { init } from "ityped";
 

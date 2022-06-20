@@ -4,10 +4,8 @@ import {
   FaTimes,
   FaGithub,
   FaLinkedin,
-  FaFacebook,
-  FaLinkedinIn,
+
 } from 'react-icons/fa';
-import { HiOutlineMail } from 'react-icons/hi';
 import { IoIosPaper } from 'react-icons/io';
 import { Link } from 'react-scroll';
 
