@@ -1,4 +1,13 @@
 import React from 'react';
+import shecodes from '../assets/shecodes.png';
+import shetrades from '../assets/shetrades.png';
+import tesla from '../assets/tesla.png';
+import goat from '../assets/goat.png';
+import fenty from '../assets/fenty.png';
+import getfit from '../assets/getfit.png';
+
+
+
 
 
 
@@ -18,9 +27,9 @@ const Work = () => {
         <div className='grid sm:grid-cols-2 md:grid-cols-3 gap-4'>
 
             {/* Grid Item */}
-        
+          
           <div
-            style={{ backgroundImage: `url(${'https://i.ibb.co/wJGd8fv/Scene-3-1.png'})` }}
+            style={{ backgroundImage: `url(${goat})` }}            
             className='shadow-lg shadow-[#f774c5] group container rounded-md flex justify-center items-center mx-auto content-div'
           >
             {/* Hover Effects */}
@@ -46,7 +55,7 @@ const Work = () => {
         
   
           <div
-            style={{ backgroundImage: `url(${'https://i.ibb.co/4jqGKY7/mockup.png'})`}}
+            style={{ backgroundImage: `url(${getfit})` }}  
             className='shadow-lg shadow-[#f774c5] group container rounded-md flex justify-center items-center mx-auto content-div'
           >
             {/* Hover Effects */}
@@ -72,7 +81,7 @@ const Work = () => {
         
        
           <div
-            style={{ backgroundImage: `url(${'https://i.ibb.co/ZXKBSZD/des-shetades.png'})` }}
+            style={{ backgroundImage: `url(${shetrades})` }}              
             className='shadow-lg shadow-[#f774c5] group container rounded-md flex justify-center items-center mx-auto content-div'
           >
             {/* Hover Effects */}
@@ -96,8 +105,7 @@ const Work = () => {
           </div>
  
           <div
-            style={{ backgroundImage: `url(${'https://i.ibb.co/fGCt3wX/desk-shetrades.png'})`}}
-            className='shadow-lg shadow-[#f774c5] group container rounded-md flex justify-center items-center mx-auto content-div'
+            style={{ backgroundImage: `url(${shecodes})` }}              className='shadow-lg shadow-[#f774c5] group container rounded-md flex justify-center items-center mx-auto content-div'
           >
             {/* Hover Effects */}
             <div className='opacity-0 group-hover:opacity-100'>
@@ -120,7 +128,7 @@ const Work = () => {
           </div>
 
           <div
-            style={{ backgroundImage: `url(${'https://i.ibb.co/0YfQy6V/desk-fenty.png'})` }}
+            style={{ backgroundImage: `url(${fenty})` }}
             className='shadow-lg shadow-[#f774c5] group container rounded-md flex justify-center items-center mx-auto content-div'
           >
             {/* Hover Effects */}
@@ -147,8 +155,8 @@ const Work = () => {
             {/* Grid Item */}
   
           <div
-            style={{ backgroundImage: `url(${'https://i.ibb.co/R2mrhY2/des-tesla.png'})` }}
-            className='shadow-lg shadow-[#f774c5] group container rounded-md flex justify-center items-center mx-auto content-div'
+            style={{ backgroundImage: `url(${tesla})` }}             
+             className='shadow-lg shadow-[#f774c5] group container rounded-md flex justify-center items-center mx-auto content-div'
           >
             {/* Hover Effects */}
             <div className='opacity-0 group-hover:opacity-100'>
