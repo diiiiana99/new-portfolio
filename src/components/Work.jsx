@@ -64,12 +64,12 @@ const Work = () => {
                GetFit Fitness App
               </span>
               <div className='pt-8 text-center'>
-                <a href='https://youtu.be/wmqvXji233s'>
+                <a href='https://youtu.be/3pkQJhyUnEA'>
                   <button className='text-center rounded-lg px-4 py-3 m-2 hover:bg-pink-400 hover:border-pink-100 text-white  font-bold text-lg'>
                     Demo
                   </button>
                 </a>
-                <a href='https://github.com/diiiiana99/SheCodes'>
+                <a href='https://github.com/diiiiana99/fitness-app'>
                   <button className='text-center rounded-lg px-4 py-3 m-2 hover:bg-pink-400 hover:border-pink-100 text-white  font-bold text-lg'>
                     Code
                   </button>
