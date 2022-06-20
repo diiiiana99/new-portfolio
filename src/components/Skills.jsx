@@ -9,13 +9,12 @@ const Skills = () => {
     <div name='skills' className='w-full h-screen bg-[] text-white'>
       {/* Container */}
       <div className='max-w-[1000px] mx-auto p-3 flex flex-col justify-center w-full h-full'>
-          <Fade top>
+     
           <div>
               <p className='text-4xl font-bold inline border-b-4 border-pink-600 '>Skills</p>
               <p className='py-4 text-pink-500 font-bold'>These are the tools that I utilize to create my work</p>
           </div>
-          </Fade>
-          <Fade bottom>
+
               
           <div className='w-full grid grid-cols-2 sm:grid-cols-4 gap-4 text-center py-8'>
               <div className='shadow-md shadow-[#ff6ed6] hover:scale-110 duration-500'>
@@ -52,7 +51,6 @@ const Skills = () => {
               </div>
 
           </div>
-          </Fade>
       </div>
     </div>
   );

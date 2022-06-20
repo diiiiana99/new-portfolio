@@ -9,7 +9,6 @@ import {
 } from 'react-icons/fa';
 import { HiOutlineMail } from 'react-icons/hi';
 import { IoIosPaper } from 'react-icons/io';
-import {Fade} from 'react-reveal'
 import { Link } from 'react-scroll';
 
 const Navbar = () => {
@@ -28,7 +27,6 @@ const Navbar = () => {
       </div>
 
       {/* menu */}
-      <Fade top>
       <ul className='hidden md:flex font-bold'>
         <li className='font-bold'>
           <Link to='home' smooth={true} duration={500}>
@@ -56,7 +54,6 @@ const Navbar = () => {
           </Link>
         </li>
       </ul>
-      </Fade>
 
       {/* Hamburger */}
       <div onClick={handleClick} className='md:hidden z-10 '>
@@ -110,7 +107,6 @@ const Navbar = () => {
       </ul>
 
       {/* Social icons */}
-        <Fade left>
       <div className='hidden lg:flex fixed flex-col top-[2.8%] left-0 bg-pink'>
         <ul>
           <li className='w-[160px] h-[60px] flex justify-between items-center ml-[-86px] hover:ml-[-10px] duration-300 bg-blue-350'>
@@ -139,7 +135,6 @@ const Navbar = () => {
           </li>
         </ul>
       </div>
-      </Fade>
     </div>
    
   );

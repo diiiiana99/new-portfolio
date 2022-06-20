@@ -18,14 +18,12 @@ export default function Product3 ({ title, description, index, updateImage, link
   return (
       <>
     <div ref={ref} className='product-slide'>
-        <Fade left>
       <h3 className='makeup-title2'>
         {title}
       </h3>
       <p className='make-up-desc2'>
         {description}
       </p>
-      </Fade>
     </div>
      </>
   )
