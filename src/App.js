@@ -18,13 +18,18 @@ function App() {
 
   return (
     <div className=''>
-      <CustomCursor/>
       <Navbar />
+      <CustomCursor/>
       <Home />
+      <CustomCursor/>
       <Work />
+      <CustomCursor/>
       <Media/>
+      <CustomCursor/>
       <About />
+      <CustomCursor/>
       <Skills />
+      <CustomCursor/>
       <Contact />
     </div>
   );
