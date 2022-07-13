@@ -105,7 +105,7 @@ const Navbar = () => {
       </ul>
 
       {/* Social icons */}
-      <div className='hidden lg:flex fixed flex-col top-[2.8%] left-0 bg-pink'>
+      <div className='hidden lg:flex fixed flex-col top-[4.2%] left-0 bg-pink'>
         <ul>
           <li className='w-[160px] h-[60px] flex justify-between items-center ml-[-86px] hover:ml-[-10px] duration-300 bg-blue-350'>
             <a
@@ -126,7 +126,7 @@ const Navbar = () => {
           <li className='w-[160px] h-[60px] flex justify-between items-center ml-[-86px] hover:ml-[-10px] duration-300   hover:border-pink-600 '>
             <a
               className='flex justify-between items-center w-full text-white' 
-              href='https://www.docdroid.net/VzCDuIY/dianna-ganova-resume-2-pdf'
+              href='https://www.docdroid.net/paRyU1s/dianna-ganova-resume-2-pdf'
                         >
               Resume <IoIosPaper size={43} />
             </a>
