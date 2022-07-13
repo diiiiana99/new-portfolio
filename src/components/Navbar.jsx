@@ -32,17 +32,17 @@ const Navbar = () => {
           </Link>
         </li>
         <li className='font-bold'>
-          <Link to='about' smooth={true} duration={500}>
+          <Link to='work' smooth={true} duration={500}>
           Work
           </Link>
         </li>
         <li className='font-bold'>
-          <Link to='skills' smooth={true} duration={500}>
+          <Link to='about' smooth={true} duration={500}>
           About
           </Link>
         </li>
         <li className='font-bold'>
-          <Link to='work' smooth={true} duration={500}>
+          <Link to='skills' smooth={true} duration={500}>
            Skills
           </Link>
         </li>

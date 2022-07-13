@@ -23,7 +23,7 @@
     padding-top: 250px;
     background-color: rgba(0, 0, 0, 0.9);
     @supports (-webkit-backdrop-filter: none) or (backdrop-filter: none) {
-      -webkit-backdrop-filter: blur(16px);
+      -webkit-backdrop-filter: blur(8px);
       backdrop-filter: blur(8px);
       background-color: rgba(255, 255, 255, 0.5);
     }
@@ -50,8 +50,8 @@
         
         font-size:0.9rem;
         margin-top: 20px;
-        font-weight: 600;
-        line-height: 3.5;
+        font-weight: 700;
+        line-height: 2.5;
         color: rgb(192, 64, 138);
   
       }
@@ -107,7 +107,7 @@
         font-size: 0.4rem;
 
         .make-up-desc2{
-          font-size: 0.2rem !important;
+          font-size: 0.1rem !important;
         }
       }
      

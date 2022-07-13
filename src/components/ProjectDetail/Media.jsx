@@ -60,6 +60,10 @@ useEffect(() => {
                 link={slide.link}
                 title={slide.title}
                 description={slide.description}
+                p1={slide.p1}
+                p2={slide.p2}
+                p3={slide.p3}
+
                 index={index}
                 
                 />

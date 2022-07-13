@@ -5,16 +5,16 @@ import { init } from "ityped";
 const About = () => {
 
 
-  const textRef = useRef();
+  // const textRef = useRef();
 
-  useEffect(() => {
-    init(textRef.current, {
-      showCursor: true,
-      backDelay: 1200,
-      backSpeed:90,
-      strings: [ "based in NYC🗽","originally from Kazakhstan🇰🇿"],
-    });
-  }, []);
+  // useEffect(() => {
+  //   init(textRef.current, {
+  //     showCursor: true,
+  //     backDelay: 1200,
+  //     backSpeed:90,
+  //     strings: [ "based in NYC🗽","originally from Kazakhstan🇰🇿"],
+  //   });
+  // }, []);
 
   return (
     <div name='about' className='w-full h-screen bg-[] text-white'>
@@ -33,11 +33,14 @@ const About = () => {
           <div className='max-w-[1000px] w-full grid sm:grid-cols-2 gap-10 px-4'>
 
             <div className='sm:text-right text-4xl font-bold text-pink-500'>
-              <p>I am <span ref={textRef}></span></p>
+              <p> Former Pro Tennis Player | </p>
+              <p> Passionate Developer | </p>
+              <p> Fitness Guru | </p>
             </div>
+            
     
             <div>
-              <p className='text-pink-500'>I am eager to create high-quality web applications and mobile applications that benefits everyone around me. I specialize in developing software for freelance clients and small business. I am hungry to learn more and be part of the community, team and business to collabarate, share ideas and excel my knowledge.</p>  
+              <p className='text-pink-500 font-bold'>Being a former pro athlete helped me a lot during my journey to become a developer. I was disciplined to be curious, constantly improve my performance, being detail oriented as well as taking ownership and responsibilities for my actions which helped me to shape the person and developer that I am today in my career.</p>  
             </div>
      
           </div>

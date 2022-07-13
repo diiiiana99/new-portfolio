@@ -17,21 +17,23 @@ function App() {
 
 
   return (
+    <>
     <div className=''>
+     
       <Navbar />
-      <CustomCursor/>
       <Home />
-      <CustomCursor/>
+      
       <Work />
-      <CustomCursor/>
+
       <Media/>
-      <CustomCursor/>
+
       <About />
-      <CustomCursor/>
+   
       <Skills />
-      <CustomCursor/>
+ 
       <Contact />
     </div>
+    </>
   );
 }
 
