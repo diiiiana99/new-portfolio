@@ -43,13 +43,6 @@ const fakeData3 = [
 
   //     },
 
-  // {
-
-  //     url: "/images/5.png",
-  //     title: "Tesla Clone",
-  //     description: "Having a deep respect for nature and the environment, I was thrilled to recreate one of my favorite companies because of its impact and value. I used React, styled components, and Redux to create a dynamic data set for this project. I have built all aspects of the original website, and I am currently working on its authentication system",
-  //     price: "$39",
-
-  // },
+  //
 ];
 export default fakeData3;
