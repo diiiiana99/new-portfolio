@@ -77,15 +77,15 @@ const Work = () => {
             {/* Hover Effects */}
             <div className="opacity-0 group-hover:opacity-100">
               <span className="text-1xl font-bold text-pink tracking-wider">
-                SheTrades Crypto App
+       Fenty Beauty
               </span>
               <div className="pt-8 text-center">
-                <a href="https://shielded-wave-83109.herokuapp.com/">
+                <a href="https://vimeo.com/707940460">
                   <button className="text-center rounded-lg px-4 py-3 m-2  hover:bg-pink-400 hover:border-pink-100 text-white  font-bold text-lg">
                     Demo
                   </button>
                 </a>
-                <a href="https://github.com/diiiiana99/SheTrades">
+                <a href="https://github.com/diiiiana99/fenty-beauty-project-react">
                   <button className="text-center rounded-lg px-4 py-3 m-2  hover:bg-pink-400 hover:border-pink-100 text-white  font-bold text-lg">
                     Code
                   </button>

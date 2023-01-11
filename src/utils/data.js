@@ -19,12 +19,12 @@ const fakeData3 = [
   },
   {
     url: "https://i.ibb.co/74vg57q/shetrades.png",
-    title: "SheTrades",
+    title: "Fenty Beauty",
     description:
-      "Trading application that is designed to educate women on how to invest in cryptocurrency",
-    p1: "   -Retrieves from 2 external APIs to render the 6 most popular coins",
+      "Online Beauty Store Application",
+    p1: "   -Retrieves from 2 external APIs utilizing Ruby as a backend server",
     p2: "   -Designed RESTful routes and 6 functional components",
-    p3: "   -Implemented features that allows users to filter coins by price and search for coins alphabetically",
+    p3: "   -Implemented features that allows users to filter products",
   },
   //     {
 
