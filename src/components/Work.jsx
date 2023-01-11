@@ -32,7 +32,7 @@ const Work = () => {
                 Goat Shop
               </span>
               <div className="pt-8 text-center">
-                <a href="https://safe-wave-75851.herokuapp.com/">
+                <a href="https://fierce-bayou-89667.herokuapp.com">
                   <button className="text-center rounded-lg px-4 py-3 m-2  hover:bg-pink-400 hover:border-pink-100 text-white  font-bold text-lg">
                     Demo
                   </button>
