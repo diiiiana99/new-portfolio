@@ -7,7 +7,9 @@
 @layer base {
     body {
         @apply font-[Raleway];
-        background:url('https://images.unsplash.com/photo-1574281183650-14db8f28c259?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1yZWxhdGVkfDE2fHx8ZW58MHx8fHw%3D&auto=format&fit=crop&w=800&q=60t&fit=crop&w=987&q=80');
+        background: rgb(0, 0, 0) !important;
+        cursor: none;
+
         background-size:contain;
         @supports (-webkit-backdrop-filter: none) or (backdrop-filter: none) {
           -webkit-backdrop-filter: blur(16px);

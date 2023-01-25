@@ -1,48 +1,31 @@
 const fakeData3 = [
-  {
-    url: "/images/1.png",
-    title: "GOAT Shop",
-    description:
-      "A shoe store with a cart feature that allows users to browse shoes",
-    p1: "  -Written exclusively in JavaScript with cross-platform technology using React-Native ",
-    p2: "   -Directly fetches data on demand from a third-party JSON API",
-    p3: "   -Built 7 dynamic screens and navigation tabs. Utilized React-Native libraries and Async-storage to visualize data in the front-end",
-  },
-  {
-    url: "/images/6.png",
-    title: "GetFit Fitness App",
-    description:
-      "A responsive web application that lets users easily browse through exercises.",
-    p1: "-Built in React around an API-based design that separates data and presentation layer. ",
-    p2: "-Implemented a Rapid API and YoutTube API to fetch 222 exercises and related videos.",
-    p3: "-Provided a search and filtering feature that supports complex filters.",
-  },
-  {
-    url: "https://i.ibb.co/74vg57q/shetrades.png",
-    title: "Fenty Beauty",
-    description:
-      "Online Beauty Store Application",
-    p1: "   -Retrieves from 2 external APIs utilizing Ruby as a backend server",
-    p2: "   -Designed RESTful routes and 6 functional components",
-    p3: "   -Implemented features that allows users to filter products",
-  },
-  //     {
 
-  //         url: "/images/4.png",
-  //         title: "SheCodes Coding App",
-  //         description: "This is SheCodes, hands-on Coding Workshops for Women and Access to a new career in Technology. Built with ReactJS, React-Tilt, styled components. I was mainly focusing on designing it first, so I will be adding more functionality and backend with JWT Tokes for User Auth and dynamic data.",
-  //         price: "$39",
-
-  // },
-
-  //     {
-  //             url: "/images/2.png",
-  //             title: "Fenty Beauty Project",
-  //             description: "My e-commerce application is based on Rihanna's Fenty Beauty line. In addition to logging in, browsing your favorite products, and getting single product details, I used React, GSAP ScrollTrigger, SCSS, and Locomotive Scroll for cool scrolling effects on the front-end. Also, I used Rails to build my own database so that the user could interact with the data that was being retrieved.",
-  //             price: "$39",
-
-  //     },
-
-  //
+    {
+      url: "/images/frame1.png",
+      title: "How It Was Built?",
+      description:
+        "A responsive web application that lets users easily browse through exercises.",
+      p1: "-Built in React around an API-based design that separates data and presentation layer. ",
+      p2: "-Implemented a Rapid API and YoutTube API to fetch 222 exercises and related videos.",
+      p3: "-Provided a search and filtering feature that supports complex filters.",
+    },
+    {
+      url: "/images/Frame2.png",
+      title: "Problem Statement",
+      description:
+        " How might we can make it easier for users to manage the GetFit area and understand what is missing in the current platform?",      
+      p1: "",
+      p2: " - Design not matching with main website ",
+      p3: " - GetFit design didn’t match with the main website, there’s no design system so the challenge is to make sure users find consistency when navigating to GetFit from the global website.",
+    },
+    {
+      url: "/images/Frame3.png",
+      title: "Product Goals",
+      description:
+        "Bringing human connection to digital personal training.",
+      p1: " - Members use our platform to achieve their personal fitness goals.",
+      p2: " -You can reach your goals at home, in the gym, or at your group fitness classes, when and where it’s most convenient for you.",
+      p3: " - We use a combination of technology, content, and elite personal trainers to empower our members through fitness. ",
+    },
 ];
 export default fakeData3;

@@ -1,15 +1,15 @@
 import React, {useState, useRef, useEffect} from 'react'
 import {Link} from 'react-router-dom'
-import fakeData from '../../utils/data1'
+import fakeData3 from '../../utils/data2'
 import cn from 'classnames'
-import Title from './Title'
+import Title from './Title2'
 import {gsap} from 'gsap'
 
 
 function RenderImages2({product}) {
-    return fakeData.map(({url}, index)=> (
+    return fakeData3.map(({url}, index)=> (
 
-        <img className={cn({"as-primar" : product === index})}
+        <img className={cn({"as-primary" : product === index})}
         key={url}
         style={{backgroundImage: `url(${url})`}}
          alt=''
@@ -53,7 +53,7 @@ useEffect(() => {
     <div ref={titleSliderRef} className='single-item-container'>
         <div className='item-desc-left'>
 
-            {fakeData.map((slide, index) => (
+            {fakeData3.map((slide, index) => (
                 <Title
                 updateImage={setProduct}
                 key={index}
